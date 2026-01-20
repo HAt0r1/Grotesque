@@ -1,0 +1,176 @@
+
+.header {
+    background-image: url('./img/main-header-background.png');
+    background-repeat: no-repeat;
+    background-position: right -47rem center;
+
+    @media (min-width: 48rem) {
+        background-position: center center;
+    }
+
+    @media (min-width: 64rem) {
+        background-size: cover;
+    }
+}
+
+.header__main {
+    padding-block: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__main-img-container {
+        max-width: 10.625rem;
+        flex-grow: 1;
+    }
+
+    .header__main-nav {
+        display: none;
+
+        @media (min-width: 64rem) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .header__main-nav-list {
+                display: flex;
+                gap: 1rem;
+
+                a {
+                    color: var(--header-link-color);
+                    font-size: 1rem;
+                    transition: color 350ms ease-in;
+
+                    &:hover {
+                        color: var(--header-link-hover-color);
+                    }
+
+                }
+
+
+            }
+        }
+    }
+
+    .header__main-socials-list {
+        display: none;
+
+        @media (min-width: 64rem) {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+        .header__main-socials-list-item {
+            width: 1.875rem;
+            height: 1.875rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: var(--header-socials-color);
+            transition: background-color 350ms ease-in;
+            cursor: pointer;
+
+            > svg {
+                display: inline-block;
+                width: 1em;
+                height: 1em;
+                stroke-width: 0;
+                stroke: currentColor;
+                fill: var(--social-icon);
+            }
+
+            &:hover,
+            &:focus {
+                background-color: var(--header-socials-hover-color);
+            }
+        }
+
+        }
+    }
+
+    .header__main-burger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.75rem 0.5rem;
+        gap: 0.3rem;
+        background-color: transparent;
+        border: none;
+
+        > .header__main-burger-menu-item {
+            width: 100%;
+            height: 0.125rem;
+            background-color: var(--header-burger-button-color);
+        }
+
+        @media (min-width: 64rem) {
+            display: none;
+        }
+
+    }
+
+}
+
+.header__hero {
+    padding-block: 8.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5rem;
+
+    @media (min-width: 48rem) {
+        padding-block: 12.1875rem;
+
+    }
+
+    @media (min-width: 64rem) {
+        padding-block: 16.25rem;
+        gap: 2.8125rem;
+    }
+
+    .header__hero-title {
+        font-family: var(--font-secondary), sans-serif;
+        font-size: var(--font-size-section-h2);
+        font-weight: 500;
+        color: var(--header-title-color);
+        line-height: 1.09;
+
+        @media (min-width: 48rem) {
+            font-size: var(--font-size-section-h2-tablet);
+        }
+
+        @media (min-width: 64rem) {
+            max-width: 37.5rem;
+            font-size: var(--font-size-section-h2-desktop);
+        }
+    }
+
+    .header__hero-text {
+        font-size: var(--font-size-section-description);
+        font-weight: 700;
+        line-height: 1.47;
+
+        @media (min-width: 64rem) {
+            max-width: 37.5rem;
+        }
+
+    }
+
+    .header__hero-button {
+        font-size: var(--font-size-button);
+        font-weight: 700;
+        color: var(--header-hero-btn-color);
+        padding: 1.3125rem 2.125rem;
+        background-image: linear-gradient(90deg, var(--header-hero-btn-s-color), var(--header-hero-btn-f-color));
+        background-position: 50% 50%;
+        border: none;
+        border-radius: 1.875rem;
+        cursor: pointer;
+    }
+}
