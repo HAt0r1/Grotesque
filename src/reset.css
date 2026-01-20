@@ -7,7 +7,9 @@
     --font-secondary: Ubuntu;
     /* Font Size */
     --font-size-default: 1.0625rem;
-    --font-size-section-h2: 3.625rem;
+    --font-size-section-h2: 3.25rem;
+    --font-size-section-h2-tablet: 4.3125rem;
+    --font-size-section-h2-desktop: 5rem;
     --font-size-section-h3: 2.125rem;
     --font-size-section-h4: 1.375rem;
     --font-size-section-description: 1.1875rem;
@@ -16,7 +18,22 @@
     --font-size-item: 0.875rem;
     --font-size-footer-social: 1.125rem;
 
-    /* Colors */
+    /* ========Colors======== */
+    /* Main colors */
+    --main-text-color: #b4b4b4;
+    --main-bg-color: #1d1d24;
+    /* Header colors*/
+    --header-link-color: #ffffff;
+    --header-link-hover-color: #f2b950;
+    --header-socials-color: #f2b950;
+    --header-socials-hover-color: #c7973f;
+    --header-title-color: #ffffff;
+    --header-burger-button-color: #ffffff;
+    --header-hero-btn-color: #ffffff;
+    --header-hero-btn-f-color: #aa2039;
+    --header-hero-btn-s-color: #f2b950;
+
+
     --white: #ffffff;
     --silver: #b4b4b4;
     --corn-yellow: #f2b950;
@@ -48,12 +65,33 @@ img {
 body {
     font-family: var(--font-primary), sans-serif;
     font-size: var(--font-size-default);
-    color: var(--silver);
-    background-color: var(--dark-charcoal);
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
 }
 
 .container {
+    max-width: 20rem;
     margin-inline: auto;
     padding-inline: 1.5rem;
+}
+
+@media (min-width: 48em) {
+    .container {
+        max-width: 48rem;
+        padding-inline: 2rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .container {
+        max-width: 64rem;
+        padding-inline: 2.5rem;
+    }
+}
+
+@media (min-width: 100rem) {
+    .container {
+        max-width: 90.3125rem;
+    }
 }
 
