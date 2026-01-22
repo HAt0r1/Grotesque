@@ -7,11 +7,11 @@
     --font-secondary: Ubuntu;
     /* Font Size */
     --font-size-default: 1.0625rem;
-    --font-size-section-h2: 3.25rem;
-    --font-size-section-h2-tablet: 4.3125rem;
-    --font-size-section-h2-desktop: 5rem;
-    --font-size-section-h3: 2.125rem;
-    --font-size-section-h4: 1.375rem;
+    --font-size-section-h1: 3.25rem;
+    --font-size-section-h1-tablet: 4.3125rem;
+    --font-size-section-h1-desktop: 5rem;
+    --font-size-section-h2: 2.125rem;
+    --font-size-section-h3: 1.375rem;
     --font-size-section-description: 1.1875rem;
     --font-size-social: 0.6875rem;
     --font-size-button: 0.9375rem;
@@ -32,7 +32,13 @@
     --header-hero-btn-color: #ffffff;
     --header-hero-btn-f-color: #aa2039;
     --header-hero-btn-s-color: #f2b950;
-
+    /* Aim section colors*/
+    --aim-section-title-color: #ffffff;
+    --aim-section-list-item-bg-color: #23232b;
+    --aim-section-icon-container-bg-color: #272730;
+    --aim-section-icon-fill-color: #aa2039;
+    --aim-section-item-title-color: #ffffff;
+    --aim-section-item-element-bg-color: #aa2039;
 
     --white: #ffffff;
     --silver: #b4b4b4;
