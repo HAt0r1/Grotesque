@@ -6,7 +6,8 @@ export default defineConfig({
     plugins: [
         viteStaticCopy({
             targets: [
-                { src: "src/html-partials/**/*", dest: "src/html-partials" },
+                { src: "src/main-page/*.partial.html", dest: "src/main-page" },
+                { src: "src/footer/*.partial.html", dest: "src/footer" },
             ],
         }),
     ],
