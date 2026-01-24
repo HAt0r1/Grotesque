@@ -28,7 +28,7 @@
     /* Main colors */
     --main-text-color: #b4b4b4;
     --main-bg-color: #1d1d24;
-    /* Header colors*/
+    /* Header colors */
     --header-link-color: #ffffff;
     --header-link-hover-color: #f2b950;
     --header-socials-color: #f2b950;
@@ -38,7 +38,7 @@
     --header-hero-btn-color: #ffffff;
     --header-hero-btn-f-color: #aa2039;
     --header-hero-btn-s-color: #f2b950;
-    /* Aim section colors*/
+    /* Aim section colors */
     --aim-section-title-color: #ffffff;
     --aim-section-list-item-bg-color: #23232b;
     --aim-section-icon-container-bg-color: #272730;
@@ -46,6 +46,12 @@
     --aim-section-item-title-color: #ffffff;
     --aim-section-item-element-bg-color: #aa2039;
     --aim-section-span-text-color: #272730;
+    /* Introduce section colors */
+    --introduce-section-title-color: #ffffff;
+    --introduce-section-text-color: #a5a5a5;
+    --introduce-section-btn-text-color: #ffffff;
+    --introduce-section-btn-f-color: #aa2039;
+    --introduce-section-btn-s-color: #f2b950;
 
     --white: #ffffff;
     --silver: #b4b4b4;
