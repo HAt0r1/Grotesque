@@ -4,6 +4,10 @@
     background-image: url("./img/introduce-section-background.png");
     background-repeat: no-repeat;
     background-position: center center;
+
+    @media (min-width: 64rem) {
+        background-position: left top;
+    }
 }
 
 .introduce__section {
@@ -12,11 +16,71 @@
     align-items: center;
     gap: 3.125rem;
 
+    @media (min-width: 48rem) {
+        flex-direction: row;
+        gap: 1.875rem;
+        align-items: stretch;
+    }
+
+    @media (min-width: 64rem) {
+        align-items: center;
+    }
+
+    .introduce__section-img {
+        z-index: 1;
+
+        @media (min-width: 48rem) {
+            min-width: 21.0625rem;
+        }
+
+        @media (min-width: 64rem) {
+            min-width: 28.5625rem;
+        }
+
+    }
+
     .introduce__section-info {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1.5625rem;
+        isolation: isolate;
+
+        @media (min-width: 48rem) {
+            align-items: flex-start;
+        }
+
+        @media (min-width: 64rem) {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        > span {
+           display: none;
+
+            @media (min-width: 48rem) {
+                display: block;
+                position: absolute;
+                top: 10px;
+                left: 41%;
+                transform: translateX(-50%);
+                width: 25rem;
+                color: var(--aim-section-span-text-color);
+                font-family: var(--font-secondary), sans-serif;
+                font-size: var(--font-size-introduce-section-span);
+                font-weight: 500;
+                line-height: 1.29;
+                z-index: -1;
+            }
+
+            @media (min-width: 64rem) {
+                left: 50%;
+                width: 500px;
+                font-size: var(--font-size-introduce-section-span-laptop);
+            }
+
+        }
 
         .introduce__section-title {
             color: var(--introduce-section-title-color);
@@ -24,6 +88,14 @@
             font-size: var(--font-size-section-h2);
             font-weight: 500;
             line-height: 1.29;
+
+            @media (min-width: 48rem) {
+                font-size: var(--font-size-section-h2-tablet);
+            }
+
+            @media (min-width: 64rem) {
+                font-size: var(--font-size-section-h2-desktop);
+            }
         }
 
         .introduce__section-subtitle {
@@ -31,6 +103,10 @@
             font-weight: 700;
             line-height: 1.47;
             text-align: center;
+
+            @media (min-width: 48rem) {
+                text-align: left;
+            }
         }
 
         .introduce__section-text {
