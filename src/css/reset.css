@@ -54,6 +54,11 @@
     --introduce-section-btn-text-color: #ffffff;
     --introduce-section-btn-f-color: #aa2039;
     --introduce-section-btn-s-color: #f2b950;
+    /* Achievement section colors */
+    --achievement-title-color: #ffffff;
+    --achievement-section-text-color: #a5a5a5;
+    --achievement-section-span-text-color: #f2b950;
+    --achievement-section-item-element-bg-color: #aa2039;
 
     --white: #ffffff;
     --silver: #b4b4b4;
