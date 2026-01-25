@@ -1,0 +1,72 @@
+
+.achievement {
+    padding-block: 1.875rem 5.625rem;
+    background-image: url("./img/achievement-section-background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @media (min-width: 48rem) {
+        padding-bottom: 6.875rem;
+    }
+
+    @media (min-width: 64rem) {
+        padding-bottom: 8.125rem;
+        background-position: right top;
+    }
+}
+
+.achievement-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.125rem;
+
+    @media (min-width: 48rem) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 64rem) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .achievement-item {
+        display: flex;
+        flex-direction: column;
+        gap: 2.0625rem;
+
+        .achievement-title {
+            position: relative;
+            color: var(--achievement-title-color);
+            font-family: var(--font-secondary), sans-serif;
+            font-size: var(--font-size-section-h2);
+            font-weight: 500;
+            line-height: 1.29;
+
+            @media (min-width: 48rem) {
+                font-size: var(--font-size-section-h2-tablet);
+            }
+
+            @media (min-width: 64rem) {
+                font-size: var(--font-size-section-h2-desktop);
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1.03125rem;
+                left: 0;
+                width: 2.55rem;
+                height: 0.1875rem;
+                background-color: var(--achievement-section-item-element-bg-color);
+            }
+
+            > span {
+                color: var(--achievement-section-span-text-color);
+            }
+        }
+
+        .achievement-text {
+            color: var(--achievement-section-text-color);
+            line-height: 1.53;
+        }
+    }
+}
