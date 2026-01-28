@@ -114,15 +114,13 @@ body {
     background-color: var(--main-bg-color);
 }
 
+
 .container {
-    max-width: 20rem;
-    margin-inline: auto;
     padding-inline: 1.5rem;
 }
 
 @media (min-width: 48em) {
     .container {
-        max-width: 48rem;
         padding-inline: 2rem;
     }
 }
@@ -130,6 +128,7 @@ body {
 @media (min-width: 64em) {
     .container {
         max-width: 64rem;
+        margin-inline: auto;
         padding-inline: 2.5rem;
     }
 }
