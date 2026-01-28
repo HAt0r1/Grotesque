@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 7.5rem;
     padding-block: 5.625rem;
-    background-image: url("./img/works-section-background.png");
+    background-image: url("/img/works-section-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
