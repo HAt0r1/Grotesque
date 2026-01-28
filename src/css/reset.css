@@ -17,10 +17,11 @@
     --font-size-section-h3-tablet: 1.4375rem;
     --font-size-section-h3-desktop: 1.5rem;
     --font-size-section-description: 1.1875rem;
-    --font-size-social: 0.6875rem;
+    --font-size-list-item-h3-title: 0.6875rem;
     --font-size-button: 0.9375rem;
     --font-size-item: 0.875rem;
     --font-size-footer-social: 1.125rem;
+    --font-size-process-section-span: 2.7rem;
     --font-size-aims-section-span: 3.9rem;
     --font-size-aims-section-span-laptop: 5rem;
     --font-size-introduce-section-span: 3.9rem;
@@ -59,6 +60,24 @@
     --achievement-section-text-color: #a5a5a5;
     --achievement-section-span-text-color: #f2b950;
     --achievement-section-item-element-bg-color: #aa2039;
+    /* Works section colors */
+    --works-section-title-color: #ffffff;
+        /* Services section colors */
+        /* Cases section colors */
+    --cases-list-item-background-color: #1d1d24;
+    --cases-list-item-info-subtitle-color: #f2b950;
+    --cases-list-item-info-title-color: #ffffff;
+    --cases-list-item-info-text-color: #a5a5a5;
+    --cases-list-item-info-button-text-color: #ffffff;
+    --cases-list-item-info-btn-f-color: #aa2039;
+    --cases-list-item-info-btn-s-color: #f2b950;
+    /* Process section colors */
+    --process-section-title-color: #ffffff;
+    --process-section-list-item-background-color: #23232b;
+    --process-section-list-item-subtitle-color: #f2b950;
+    --process-section-list-item-title-color: #ffffff;
+    --process-section-list-item-text-color: #a5a5a5;
+    --process-section-span-text-color: #272730;
 
     --white: #ffffff;
     --silver: #b4b4b4;
