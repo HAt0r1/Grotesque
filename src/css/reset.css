@@ -78,6 +78,16 @@
     --process-section-list-item-title-color: #ffffff;
     --process-section-list-item-text-color: #a5a5a5;
     --process-section-span-text-color: #272730;
+    /* Approach section colors */
+    --approach-section-info-title-color: #ffffff;
+    --approach-section-info-subtitle-color: #d6d6d6;
+    --approach-section-info-text-color: #ffffffa6;
+    --approach-section-list-item-image-background-color: #1d1d24ab;
+    --approach-section-list-item-svg-fill: #f2b950;
+    --approach-section-list-item-info-title-color: #ffffff;
+    --approach-section-list-item-info-text-color: #ffffffa6;
+
+
 
     --white: #ffffff;
     --silver: #b4b4b4;

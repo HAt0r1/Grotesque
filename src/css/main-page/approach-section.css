@@ -1,0 +1,88 @@
+.approach {
+    position: relative;
+    padding-block: 6.875rem 5rem;
+    background-image: url("/img/approach-section-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 87% top;
+}
+
+.approach__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.125rem;
+
+    .approach__info {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5625rem;
+
+        .approach__title {
+            color: var(--approach-section-info-title-color);
+            font-family: var(--font-secondary), sans-serif;
+            font-size: var(--font-size-section-h2);
+            font-weight: 500;
+            line-height: 1.29;
+        }
+
+        .approach__subtitle {
+            color: var(--approach-section-info-subtitle-color);
+            font-size: var(--font-size-section-description);
+            font-weight: 700;
+            line-height: 1.47;
+        }
+
+        .approach__text {
+            color: var(--approach-section-info-text-color);
+            line-height: 1.53;
+        }
+
+        .approach__list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+
+            .approach__list-item {
+                display: grid;
+                grid-template-columns: 3.125rem 1fr;
+                gap: 0.9375rem;
+
+                .approach__list-item-image {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 3.125rem;
+                    border-radius: 50%;
+                    background-color: var(--approach-section-list-item-image-background-color);
+
+                    > svg {
+                        width: 1.625rem;
+                        height: 1.625rem;
+                        fill: var(--approach-section-list-item-svg-fill);
+                    }
+                }
+
+                .approach__list-item-info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    .approach__list-item-title {
+                        color: var(--approach-section-list-item-info-title-color);
+                        font-size: var(--font-size-section-h3);
+                        font-weight: 400;
+                        line-height: 1.3;
+                    }
+
+                    .approach__list-item-text {
+                        color: var(--approach-section-list-item-info-text-color);
+                        line-height: 1.53;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
