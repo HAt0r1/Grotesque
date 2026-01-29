@@ -72,6 +72,7 @@
                 font-weight: 500;
                 line-height: 1.29;
                 z-index: -1;
+                cursor: default;
             }
 
             @media (min-width: 64rem) {
@@ -125,6 +126,10 @@
             border: none;
             border-radius: 1.875rem;
             cursor: pointer;
+
+            &:hover {
+                background-image: linear-gradient(180deg, var(--introduce-section-btn-s-color), var(--introduce-section-btn-f-color));
+            }
         }
     }
 }

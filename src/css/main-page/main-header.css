@@ -170,6 +170,11 @@
         background-position: 50% 50%;
         border: none;
         border-radius: 1.875rem;
+        transition: background-image 350ms ease-in;
         cursor: pointer;
+
+        &:hover {
+            background-image: linear-gradient(180deg, var(--header-hero-btn-s-color), var(--header-hero-btn-f-color))
+        }
     }
 }

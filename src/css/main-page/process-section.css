@@ -48,7 +48,7 @@
         @media (min-width: 64rem) {
             left: 55%;
             width: 50rem;
-            font-size: var(--font-size-aims-section-span-laptop);
+            font-size: var(--font-size-sections-default-span-laptop);
         }
     }
 
