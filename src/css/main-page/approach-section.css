@@ -13,6 +13,17 @@
     @media (min-width: 64rem) {
         padding-top: 13.125rem;
     }
+
+    .wave-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /*background-color: white;*/
+        height: 6.875rem;
+        background-image: url("/sprite.svg#icon-wave");
+        background-size: contain;
+        width: 100%;
+    }
 }
 
 .approach__container {

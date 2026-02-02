@@ -66,5 +66,14 @@
     <symbol id="icon-prev" viewBox="0 0 30 30">
         <path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1768074958507"></path>
     </symbol>
+    <symbol id="icon-wave" viewBox="0 0 1440 360" preserveAspectRatio="none">
+    <defs>
+        <linearGradient id="wave-gradient-1" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#6B2CF5"/>
+            <stop offset="55%" stop-color="#8C2FD1"/>
+            <stop offset="100%" stop-color="#D62A4F"/>
+        </linearGradient>
+    </defs>
+    <path d="M0,110 160,40 320,40 480,110 C640,180 800,180 960,110 C1120,40 1280,40 1440,110 L1440,360 L0,360 Z" fill="url(#wave-gradient-1)"/>
 </defs>
 </svg>
