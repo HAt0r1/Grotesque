@@ -1,0 +1,14 @@
+(()=>{const t=document.querySelector(".service__list"),v=document.querySelector('[data-action="prev"]'),h=document.querySelector('[data-action="next"]');if(!t)return;const c=[{img:"./img/digital-advertising.png",alt:"Digital Advertising",header:"Digital Marketing and Advertising",list:{p1:"Search / display / social ads;",p2:"Inbound marketing;",p3:"Search engine optimization;",p4:"Direct mail;"}},{img:"./img/business-planning.png",alt:"Business Strategy & Planning",header:"Business Strategy & Planning",list:{p1:"Discovery and planning;",p2:"Brand positioning;",p3:"Information architecture;",p4:"Content strategy."}},{img:"./img/design-services.png",alt:"All Kinds of Design Services",header:"All Kinds of Design Services",list:{p1:"Website design;",p2:"Logo design an branding;",p3:"UI/UX design;",p4:"Print design."}},{img:"./img/service-development.png",alt:"Web and Mobile Development",header:"Web and Mobile Development",list:{p1:"Responsive websites;",p2:"Web applications;",p3:"E-commerce development;",p4:"Custom integrations."}}],_=({img:e,alt:o,header:p,list:n})=>`
+    <li class="service__list-item">
+      <div class="service__list-item-image">
+        <img src="${e}" alt="${o}">
+      </div>
+      <h3 class="service__list-item-title">${p}</h3>
+      <ul class="service__item-list">
+        <li class="service__item-point">${n.p1}</li>
+        <li class="service__item-point">${n.p2}</li>
+        <li class="service__item-point">${n.p3}</li>
+        <li class="service__item-point">${n.p4}</li>
+      </ul>
+    </li>
+  `;function y(){const e=window.innerWidth;return e>=1024?3:e>=768?2:1}function r(e){t.style.transition=e?"transform 250ms ease":"none"}function g(){const e=t.children;if(e.length<2)return 0;const o=e[0].getBoundingClientRect();return e[1].getBoundingClientRect().left-o.left}let l=c.length,s=0,i=0,a=0,d=!1;function m(){if(t.innerHTML=c.map(_).join(""),l=c.length,s=Math.min(y(),l),l<=s){i=0,r(!0),t.style.transform="translateX(0px)";return}const e=Array.from(t.children);e.slice(-s).map(n=>n.cloneNode(!0)).forEach(n=>{n.dataset.clone="1",t.insertBefore(n,t.firstChild)}),e.slice(0,s).map(n=>n.cloneNode(!0)).forEach(n=>{n.dataset.clone="1",t.appendChild(n)}),a=g(),i=s,r(!1),llistElement.style.transform=`translateX(${-i*a}px)`,t.getBoundingClientRect(),r(!0)}function u(e){d||(d=!0,i=e,a=g(),r(!0),t.style.transform=`translateX(${-i*a}px)`)}function C(){l<=s||u(i+1)}function b(){l<=s||u(i-1)}function x(e){e.propertyName==="transform"&&(d=!1,!(l<=s)&&(i>=l+s&&(i=s,r(!1),t.style.transform=`translateX(${-i*a}px)`,t.getBoundingClientRect(),r(!0)),i<s&&(i=l+s-1,r(!1),t.style.transform=`translateX(${-i*a}px)`,t.getBoundingClientRect(),r(!0))))}h?.addEventListener("click",C),v?.addEventListener("click",b),t.addEventListener("transitionend",x);let f;window.addEventListener("resize",()=>{clearTimeout(f),f=setTimeout(()=>{m()},120)}),m()})();
