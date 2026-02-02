@@ -26,16 +26,14 @@
     }
 
     .approach__info {
+        position: relative;
         display: flex;
         flex-direction: column;
         gap: 1.5625rem;
+        isolation: isolate;
 
         @media (min-width: 64rem) {
             gap: 2.1875rem;
-        }
-
-        > span {
-            display: none;
         }
 
         .approach__title {

@@ -63,6 +63,10 @@
     /* Works section colors */
     --works-section-title-color: #ffffff;
         /* Services section colors */
+    --service-section-list-item-title-color: #ffffff;
+    --service-section-list-item-type-color: #f2b950;
+    --service-section-btn-bg-color: #ffffff;
+    --service-section-btn-fill: #ffffff;
         /* Cases section colors */
     --cases-list-item-background-color: #1d1d24;
     --cases-list-item-info-subtitle-color: #f2b950;
