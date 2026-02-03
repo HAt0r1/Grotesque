@@ -123,7 +123,7 @@
 
 
         setTransition(false);
-        llistElement.style.transform = `translateX(${-index * stepPx}px)`;
+        listElement.style.transform = `translateX(${-index * stepPx}px)`;
         listElement.getBoundingClientRect();
         setTransition(true);
     }
