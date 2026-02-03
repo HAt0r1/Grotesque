@@ -11,12 +11,13 @@
 
     @media (min-width: 48rem) {
         padding-block: 6.5625rem;
+        background-position: center top;
         background-size: cover;
     }
 
     @media (min-width: 64rem) {
         padding-block: 7.5rem;
-        background-position: center center;
     }
+
 }
 
