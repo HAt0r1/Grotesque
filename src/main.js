@@ -1,19 +1,24 @@
 import "./style.css";
 
 async function init() {
-    const mod = await import("./js/service-carousell.js");
+    const serviceMod = await import("./js/service-carousell.js");
+    serviceMod.initServiceCarousel?.(document);
 
-
-    mod.initServiceCarousel?.(document);
+    const reviewsMod = await import("./js/reviews-carousel.js");
+    reviewsMod.initReviewsCarousel?.(document);
 }
 
 const totalPartials = document.querySelectorAll(
-    '[hx-trigger="load"], [data-hx-trigger="load"]',
+    '[hx-trigger="load"], [data-hx-trigger="load"]'
 ).length;
 
 let loadedPartialsCount = 0;
 
-document.body.addEventListener("htmx:afterOnLoad", () => {
-    loadedPartialsCount++;
-    if (loadedPartialsCount === totalPartials) init();
-});
+if (totalPartials === 0) {
+    init();
+} else {
+    document.body.addEventListener("htmx:afterOnLoad", () => {
+        loadedPartialsCount++;
+        if (loadedPartialsCount === totalPartials) init();
+    });
+}
