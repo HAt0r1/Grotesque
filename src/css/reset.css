@@ -109,6 +109,15 @@
     --reviews-section-list-item-btn-color: #f2b950;
     --reviews-section-list-item-btn-color-disabled: #a27d36;
     --reviews-section-list-item-quote-color: #a5a5a5;
+    /* Events section colors */
+    --events-section-title-color: #ffffff;
+    --events-section-list-item-bg-color: #1d1d24;
+    --events-section-list-item-subtitle-text-color: #f2b950;
+    --events-section-list-item-title-text-color: #ffffff;
+    --events-section-list-item-list-el-text-color: #a5a5a5;
+    --events-section-list-item-marker-color: #f2b950;
+    --events-section-item-btn-f-color: #aa2039;
+    --events-section-item-btn-s-color: #f2b950;
 
     --white: #ffffff;
     --silver: #b4b4b4;
