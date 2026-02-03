@@ -90,8 +90,12 @@
     --approach-section-list-item-svg-fill: #f2b950;
     --approach-section-list-item-info-title-color: #ffffff;
     --approach-section-list-item-info-text-color: #ffffffa6;
-
-
+    /* Awards section colors */
+    --awards-section-title-color: #ffffff;
+    --awards-section-item-element-bg-color: #23232b;
+    --awards-section-list-item-img-container-bg-color: #272730;
+    --awards-section-list-item-image-fill: #f2b950;
+    --awards-section-list-item-text-color: #a5a5a5;
 
     --white: #ffffff;
     --silver: #b4b4b4;
