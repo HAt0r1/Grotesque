@@ -20,9 +20,13 @@
     --font-size-list-item-h3-title: 0.6875rem;
     --font-size-button: 0.9375rem;
     --font-size-item: 0.875rem;
+    --font-size-quote: 1.125rem;
+    --font-size-quote-tablet: 1.25rem;
+    --font-size-quote-desktop: 1.4375rem;
     --font-size-footer-social: 1.125rem;
     --font-size-process-section-span: 2.7rem;
     --font-size-sections-default-span: 3.9rem;
+    --font-size-sections-default-review-span: 4.6rem;
     --font-size-sections-default-span-laptop: 5rem;
     --font-size-introduce-section-span: 3.9rem;
     --font-size-introduce-section-span-laptop: 5rem;
@@ -96,6 +100,15 @@
     --awards-section-list-item-img-container-bg-color: #272730;
     --awards-section-list-item-image-fill: #f2b950;
     --awards-section-list-item-text-color: #a5a5a5;
+    /* Reviews section colors */
+    --reviews-section-span-text-color: #272730;
+    --reviews-section-title-color: #ffffff;
+    --reviews-section-list-item-img-fill-color: #aa2039;
+    --reviews-section-list-item-title-color: #ffffff;
+    --reviews-section-list-item-text-color: #f2b950;
+    --reviews-section-list-item-btn-color: #f2b950;
+    --reviews-section-list-item-btn-color-disabled: #a27d36;
+    --reviews-section-list-item-quote-color: #a5a5a5;
 
     --white: #ffffff;
     --silver: #b4b4b4;
@@ -156,4 +169,3 @@ body {
         max-width: 90.3125rem;
     }
 }
-
