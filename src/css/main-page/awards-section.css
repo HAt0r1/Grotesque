@@ -1,0 +1,100 @@
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+
+    .awards__title {
+        color: var(--awards-section-title-color);
+        font-family: var(--font-secondary), sans-serif;
+        font-size: var(--font-size-section-h2);
+        font-weight: 500;
+        line-height: 1.29;
+
+        @media (min-width: 48rem) {
+            font-size: var(--font-size-section-h2-tablet);
+        }
+
+        @media (min-width: 64rem) {
+            font-size: var(--font-size-section-h2-desktop);
+        }
+    }
+
+    .awards__text {
+        font-size: var(--font-size-section-description);
+        font-weight: 700;
+        line-height: 1.47;
+        text-align: center;
+    }
+
+    .awards__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3.125rem;
+
+        @media (min-width: 48rem) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.875rem;
+        }
+
+        @media (min-width: 64rem) {
+            grid-template-columns: repeat(4, 1fr);
+            margin-top: 1.25rem;
+        }
+
+        .awards__list-item {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.25rem;
+            padding: 1.9375rem;
+            background-color: var(--awards-section-item-element-bg-color);
+            border-radius: 1rem;
+
+            @media (min-width: 64rem) {
+                padding: 2.5rem;
+            }
+
+            .awards__item-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 4.375rem;
+                height: 4.375rem;
+                background-color: var(--awards-section-list-item-img-container-bg-color);
+                border-radius: 50%;
+
+                @media (min-width: 48rem) {
+                    width: 6.25rem;
+                    height: 6.25rem;
+                }
+
+                > svg {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    fill: var(--awards-section-list-item-image-fill);
+
+                    @media (min-width: 48rem) {
+                        width: 3.75rem;
+                        height: 3.75rem;
+                    }
+                }
+            }
+
+            .awards__item-text {
+                color: var(--awards-section-list-item-text-color);
+                line-height: 1.53;
+                text-align: center;
+
+                @media (min-width: 48rem) {
+                    max-width: 16rem;
+                }
+            }
+        }
+    }
+
+
+}
