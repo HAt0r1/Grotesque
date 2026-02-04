@@ -20,6 +20,9 @@
     --font-size-list-item-h3-title: 0.6875rem;
     --font-size-button: 0.9375rem;
     --font-size-item: 0.875rem;
+    --font-size-contact: 1.125rem;
+    --font-size-contact-tablet: 1.1875rem;
+    --font-size-contact-desktop: 1.3125rem;
     --font-size-quote: 1.125rem;
     --font-size-quote-tablet: 1.25rem;
     --font-size-quote-desktop: 1.4375rem;
@@ -30,6 +33,9 @@
     --font-size-sections-default-span-laptop: 5rem;
     --font-size-introduce-section-span: 3.9rem;
     --font-size-introduce-section-span-laptop: 5rem;
+    --font-size-contacts-title: 3.25rem;
+    --font-size-contacts-title-tablet: 4.3125rem;
+    --font-size-contacts-title-desktop: 5rem;
 
     /* ========Colors======== */
     /* Main colors */
@@ -118,6 +124,11 @@
     --events-section-list-item-marker-color: #f2b950;
     --events-section-item-btn-f-color: #aa2039;
     --events-section-item-btn-s-color: #f2b950;
+    /* Contacts section colors */
+    --contacts-section-title-color: #ffffff;
+    --contacts-section-text-color: #ffffffc4;
+    --contacts-section-link-color: #f2b950;
+    --contacts-section-span-color: #ffffffb8;
 
     --white: #ffffff;
     --silver: #b4b4b4;

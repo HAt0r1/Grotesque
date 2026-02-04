@@ -72,13 +72,9 @@
                     aspect-ratio: 3 / 2;
 
                     @media (min-width: 64rem) {
-                        width: 14.28125rem;
+                        width: 50%;
                         aspect-ratio: 2 / 3;
                         height: 100%;
-                    }
-
-                    @media (min-width: 90rem) {
-                        width: 100%;
                     }
 
                     > img {
@@ -105,6 +101,10 @@
 
                     @media (min-width: 64rem) {
                         padding: 2.5rem 1.875rem;
+                    }
+
+                    @media (min-width: 90rem) {
+                        width: 17.8125rem;
                     }
 
                     .events__content-subtitle {

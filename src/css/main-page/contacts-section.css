@@ -1,0 +1,88 @@
+
+.contacts {
+    padding-block: 5.625rem;
+    background-image: url("/img/contacts-section-background.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    @media (min-width: 48rem) {
+        padding-block: 6.5625rem 6.875rem;
+    }
+
+    @media (min-width: 64rem) {
+        background-position: center center;
+        padding-block: 7.5rem 8.125rem;
+    }
+
+
+    .contacts__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5625rem;
+
+        .contacts__title {
+            color: var(--contacts-section-title-color);
+            font-family: var(--font-secondary), sans-serif;
+            font-size: var(--font-size-contacts-title);
+            font-weight: 500;
+            line-height: 1.09;
+            text-align: center;
+
+            @media (min-width: 48rem) {
+                font-size: var(--font-size-contacts-title-tablet);
+            }
+
+            @media (min-width: 64rem) {
+                font-size: var(--font-size-contacts-title-desktop);
+            }
+        }
+
+        .contacts__text {
+            color: var(--contacts-section-text-color);
+            font-size: var(--font-size-section-description);
+            font-weight: 700;
+            line-height: 1.47;
+            text-align: center;
+        }
+
+        .contacts__list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            @media (min-width: 48rem) {
+                flex-direction: row;
+                gap: 0.175rem;
+            }
+
+            .contacts__list-item {
+                color: var(--contacts-section-link-color);
+                font-size: var(--font-size-contact);
+                font-weight: 700;
+                line-height: 1.4;
+
+                @media (min-width: 48rem) {
+                    font-size: var(--font-size-contact-tablet);
+                }
+
+                @media (min-width: 64rem) {
+                    font-size: var(--font-size-contact-desktop);
+                }
+
+                .contacts__item-link {
+                    text-decoration: underline;
+
+                }
+
+                > span {
+
+                    color: var(--contacts-section-span-color);
+                }
+            }
+        }
+    }
+
+}
