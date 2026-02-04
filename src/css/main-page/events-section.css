@@ -10,14 +10,37 @@
     }
 
     .events__container {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2.1875rem;
+        isolation: isolate;
 
 
         > span {
             display: none;
+
+            @media (min-width: 48rem) {
+                display: block;
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: var(--events-section-span-text-color);
+                font-family: var(--font-secondary), sans-serif;
+                font-size: 2.7rem;
+                font-weight: 500;
+                line-height: 1.29;
+                z-index: -1;
+                margin-inline: auto;
+                cursor: default;
+            }
+
+            @media (min-width: 64rem) {
+                width: 40.25rem;
+                font-size: var(--font-size-sections-default-review-span);
+            }
         }
 
         .events__title {

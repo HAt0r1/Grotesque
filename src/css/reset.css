@@ -124,6 +124,7 @@
     --events-section-list-item-marker-color: #f2b950;
     --events-section-item-btn-f-color: #aa2039;
     --events-section-item-btn-s-color: #f2b950;
+    --events-section-span-text-color: #272730ff;
     /* Contacts section colors */
     --contacts-section-title-color: #ffffff;
     --contacts-section-text-color: #ffffffc4;
@@ -132,7 +133,13 @@
     /* Sponsors section color */
     --sponsors-section-item-bg-color: #23232b;
     --sponsors-section-item-icon-fill-color: #b4b4b4;
-
+    /* News section color */
+    --news-section-title-color: #ffffff;
+    --news-section-list-item-subtitle-text-color: #f2b950;
+    --news-section-list-item-title-text-color: #ffffff;
+    --news-section-list-item-text-color: #a5a5a5;
+    --news-section-item-btn-s-color: #f2b950;
+    --news-section-item-btn-f-color: #aa2039;
 
 
     --white: #ffffff;
