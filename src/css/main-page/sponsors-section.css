@@ -1,0 +1,28 @@
+.sponsors {
+    padding-block: 1.875rem;
+
+    .sponsors__carousel {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+
+        .sponsors__list {
+            display: flex;
+            gap: 1.5rem;
+
+            .sponsors__item {
+                background-color: var(--sponsors-section-item-bg-color);
+                min-width: 242px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                > svg {
+                    width: 10.3125rem;
+                    fill: var(--sponsors-section-item-icon-fill-color);
+                }
+            }
+        }
+    }
+
+}

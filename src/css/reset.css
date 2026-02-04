@@ -129,6 +129,11 @@
     --contacts-section-text-color: #ffffffc4;
     --contacts-section-link-color: #f2b950;
     --contacts-section-span-color: #ffffffb8;
+    /* Sponsors section color */
+    --sponsors-section-item-bg-color: #23232b;
+    --sponsors-section-item-icon-fill-color: #b4b4b4;
+
+
 
     --white: #ffffff;
     --silver: #b4b4b4;
