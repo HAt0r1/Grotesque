@@ -7,7 +7,7 @@
     --font-secondary: Ubuntu;
     /* Font Size */
     --font-size-default: 1.0625rem;
-    --font-size-section-h1: 3.25rem;
+    --font-size-section-h1: 3.625rem;
     --font-size-section-h1-tablet: 4.3125rem;
     --font-size-section-h1-desktop: 5rem;
     --font-size-section-h2: 2.125rem;
@@ -27,6 +27,8 @@
     --font-size-quote-tablet: 1.25rem;
     --font-size-quote-desktop: 1.4375rem;
     --font-size-footer-social: 1.125rem;
+    --font-size-footer-social-tablet: 1.1875rem;
+    --font-size-footer-social-desktop: 1.3125rem;
     --font-size-process-section-span: 2.7rem;
     --font-size-sections-default-span: 3.9rem;
     --font-size-sections-default-review-span: 4.6rem;
@@ -36,6 +38,8 @@
     --font-size-contacts-title: 3.25rem;
     --font-size-contacts-title-tablet: 4.3125rem;
     --font-size-contacts-title-desktop: 5rem;
+    --font-size-footer-text: 0.875rem;
+    --font-size-footer-text-desktop: 0.9375rem;
 
     /* ========Colors======== */
     /* Main colors */
@@ -140,7 +144,11 @@
     --news-section-list-item-text-color: #a5a5a5;
     --news-section-item-btn-s-color: #f2b950;
     --news-section-item-btn-f-color: #aa2039;
-
+    /* Footer section color */
+    --footer-link-color: #f2b950;
+    --footer-list-item-img-bg-color: #23232b;
+    --footer-icon-fill-color: #aa2039;
+    --footer-list-item-link-color: #ffffff;
 
     --white: #ffffff;
     --silver: #b4b4b4;
