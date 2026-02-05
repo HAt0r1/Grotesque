@@ -1,7 +1,7 @@
 
 .news {
     padding-block: 5.625rem;
-    background-image: url("img/news-section-background.png");
+    background-image: url("/img/news-section-background.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
