@@ -24,7 +24,7 @@
         isolation: isolate;
 
         > span {
-            display: block;
+            display: none;
 
             @media (min-width: 48rem) {
                 display: block;

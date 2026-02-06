@@ -144,11 +144,13 @@
     --news-section-list-item-text-color: #a5a5a5;
     --news-section-item-btn-s-color: #f2b950;
     --news-section-item-btn-f-color: #aa2039;
-    /* Footer section color */
+    /* Footer section colors */
     --footer-link-color: #f2b950;
     --footer-list-item-img-bg-color: #23232b;
     --footer-icon-fill-color: #aa2039;
     --footer-list-item-link-color: #ffffff;
+    /* Menu section colors */
+    --menu-bg-color: #1d1d24;
 
     --white: #ffffff;
     --silver: #b4b4b4;
@@ -179,6 +181,8 @@ img {
 }
 
 body {
+    overflow-x: hidden;
+    position: relative;
     font-family: var(--font-primary), sans-serif;
     font-size: var(--font-size-default);
     color: var(--main-text-color);

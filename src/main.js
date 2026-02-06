@@ -6,6 +6,8 @@ async function init() {
 
     const reviewsMod = await import("./js/reviews-carousel.js");
     reviewsMod.initReviewsCarousel?.(document);
+
+    const menuMod = await import("./js/burger-menu.js");
 }
 
 const totalPartials = document.querySelectorAll(

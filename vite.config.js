@@ -8,6 +8,7 @@ export default defineConfig({
             targets: [
                 { src: "src/main-page/*.partial.html", dest: "src/main-page" },
                 { src: "src/footer/*.partial.html", dest: "src/footer" },
+                { src: "src/menu/*.partial.html", dest: "src/menu" },
             ],
         }),
     ],

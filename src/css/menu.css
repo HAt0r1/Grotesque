@@ -1,0 +1,27 @@
+/*.menu {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    background-color: var(--menu-bg-color);*/
+/*    padding-top: 1.875rem;*/
+/*    z-index: 1;*/
+
+/*    .menu__container {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        gap: 1.875rem;*/
+
+/*        .menu__header {*/
+/*            display: flex;*/
+/*            justify-content: space-between;*/
+/*            align-items: center;*/
+
+/*            .menu__header-image {*/
+/*                max-width: 10.6875rem;*/
+/*            }*/
+/*        }*/
+/*    }*/
+
+/*}*/
