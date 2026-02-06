@@ -1,0 +1,1 @@
+const e=document.querySelector(".header__main-burger-menu"),t=document.querySelector(".header__burger-menu"),c=()=>{t.classList.add("is-active"),e.classList.add("active")},i=()=>{t.classList.remove("is-active"),e.classList.remove("active")};e.addEventListener("click",s=>{s.target.nodeName==="BUTTON"&&(t.classList.contains("is-active")?i():c())});
